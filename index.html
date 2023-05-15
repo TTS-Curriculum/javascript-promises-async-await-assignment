@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cat Facts</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cat Facts</h1>
+      <p class="subtitle">Learn interesting facts about cats:</p>
+    </header>
+    <main>
+      <div class="fact-number-wrapper">
+        <label for="fact-count">Number of Facts:</label>
+        <input type="number" id="fact-count" name="fact-count" min="1" max="10"/>
+        <button id="generate-btn">Generate Facts</button>
+      </div>
+      <div id="cat-facts"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Cat Facts. All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+    <script src="./util/teacherJS.js"></script>
+  </body>
+</html>
